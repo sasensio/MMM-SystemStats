@@ -1,8 +1,10 @@
 {
-	"CPU_TEMP": "CPU Temp",
-	"SYS_LOAD": "System Load",
-	"RAM_FREE": "Free RAM",
-	"UPTIME": "Uptime",
-	"DISK_FREE": "Avail Space",
-	"TEMP_THRESHOLD_WARNING": "CPU Temp has exceeded threshold"
+        "CPU_TEMP": "CPU Temp",
+        "SYS_LOAD": "System Load",
+        "RAM_FREE": "Free RAM",
+        "UPTIME": "Uptime",
+        "DISK_FREE": "Avail Space",
+        "FAN_PWM": "Fan Speed",
+        "FAN_STATUS": "Fan State",
+        "TEMP_THRESHOLD_WARNING": "CPU Temp has exceeded threshold"
 }

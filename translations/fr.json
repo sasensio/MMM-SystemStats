@@ -1,8 +1,10 @@
 {
-	"CPU_TEMP": "Temp. CPU",
-	"SYS_LOAD": "Charge Système",
-	"RAM_FREE": "RAM Libre",
-	"UPTIME": "En fonctionnement depuis",
-	"DISK_FREE": "Espace disponible",
-	"TEMP_THRESHOLD_WARNING": "Temp. CPU a dépassé le seuil"
+        "CPU_TEMP": "Temp. CPU",
+        "SYS_LOAD": "Charge Système",
+        "RAM_FREE": "RAM Libre",
+        "UPTIME": "En fonctionnement depuis",
+        "DISK_FREE": "Espace disponible",
+        "FAN_PWM": "Vitesse Ventil.",
+        "FAN_STATUS": "État Ventilateur",
+        "TEMP_THRESHOLD_WARNING": "Temp. CPU a dépassé le seuil"
 }
