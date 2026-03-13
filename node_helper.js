@@ -104,7 +104,6 @@ module.exports = NodeHelper.create({
       // Read fan stats from fanControl log
       var fan = self.getFanStats();
       stats.fanPWM = fan.fanPWM;
-      stats.fanStatus = fan.fanStatus;
 
       self.sendSocketNotification('STATS', stats);
     });

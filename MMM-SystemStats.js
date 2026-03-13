@@ -50,7 +50,6 @@ Module.register('MMM-SystemStats', {
     this.stats.upTime    = loading;
     this.stats.freeSpace = loading;
     this.stats.fanPWM    = loading;
-    this.stats.fanStatus = loading;
     this.sendSocketNotification('CONFIG', this.config);
   },
 
@@ -76,7 +75,6 @@ Module.register('MMM-SystemStats', {
       this.stats.upTime    = moment.duration(upTime, 'seconds').humanize();
       this.stats.freeSpace = payload.freeSpace;
       this.stats.fanPWM    = payload.fanPWM   || 'N/A';
-      this.stats.fanStatus = payload.fanStatus || 'N/A';
       this.updateDom(this.config.animationSpeed);
     }
   },
@@ -109,10 +107,6 @@ Module.register('MMM-SystemStats', {
       fanPWM: {
         text: 'FAN_PWM',
         icon: 'fa-cog',
-      },
-      fanStatus: {
-        text: 'FAN_STATUS',
-        icon: 'fa-adjust',
       },
     };
 
