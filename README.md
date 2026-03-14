@@ -1,12 +1,20 @@
 # Module: MMM-SystemStats
 <img src="https://img.shields.io/badge/Maintained%3F-no-red.svg?style=flat-square">
 
-This [MagicMirror](https://github.com/MichMich/MagicMirror) modules, shows the processor temperature, system load, available RAM, uptime and free disk space.
+This [MagicMirror](https://github.com/MichMich/MagicMirror) module shows processor temperature, system load, available RAM, uptime, free disk space, and fan speed.
 
 ![Magic-Mirror Module MMM-SystemStats screenshot](https://raw.githubusercontent.com/BenRoe/MMM-SystemStats/master/screenshot.png)
 
 Tested with:
 - Raspberry Pi
+
+## Fan speed support
+
+This fork adds fan speed reporting to the module.
+
+- The module now shows `Fan Speed` as a percentage value.
+- This is useful on Raspberry Pi setups where fan control is exposed as PWM percentage.
+- Only fan speed is displayed (fan state is not shown).
 
 ## Dependencies
 - An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
